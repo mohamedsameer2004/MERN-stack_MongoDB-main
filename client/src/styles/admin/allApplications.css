@@ -1,0 +1,99 @@
+.user-applications-page {
+    padding: 2vh 2vw;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.user-applications-page h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #005a8b; /* Dark blue for headings */
+    margin-bottom: 1.5vh;
+}
+
+.user-applications-body {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: 76vh;
+    border-radius: 0.7rem;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    overflow-y: auto; /* Use 'auto' for better experience */
+    background-color: #ffffff; /* White background for clarity */
+}
+
+.user-application {
+    padding: 2vh 2vw;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover */
+}
+
+.user-application:hover {
+    background-color: rgba(12, 105, 148, 0.1); /* Lighter hover color */
+    transform: scale(1.02); /* Slight scaling effect */
+}
+
+.user-application-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center align items vertically */
+}
+
+.user-application hr {
+    height: 2px;
+    background-color: rgba(84, 86, 86, 0.4);
+    width: 100%;
+    margin: 1vh 0; /* Add margin for spacing */
+}
+
+.vertical-line {
+    width: 1px;
+    background-color: rgba(110, 109, 109, 0.3);
+    height: inherit;
+}
+
+.user-application-half {
+    width: 48%;
+}
+
+.user-application-half h4 {
+    font-size: 1.2rem;
+    color: rgba(26, 83, 121, 0.8); /* More opaque color for better readability */
+    margin-bottom: 0.5vh; /* Add spacing below */
+}
+
+.user-application-half p {
+    font-size: 0.9rem; /* Slightly larger font for readability */
+    color: rgba(70, 70, 70, 0.8); /* Darker gray for body text */
+}
+
+.user-application-half span {
+    display: block; /* Ensure span takes full width */
+}
+
+.user-application-half span h5 {
+    font-size: 1.1rem;
+    color: rgba(9, 55, 86, 0.9); /* Darker color for emphasis */
+}
+
+.user-application-half span p {
+    margin: 0; /* Reset margin */
+    color: rgba(100, 100, 100, 0.8); /* Gray color for additional info */
+}
+
+.user-application-half span .application-skills {
+    display: flex;
+    gap: 10px;
+    margin-top: 0.5vh; /* Add space above skills */
+}
+
+.user-application-half span .application-skills p {
+    color: #ee4950;
+    border: 1px solid #ee4950;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    font-size: 0.7rem; /* Adjusted font size for clarity */
+    background-color: rgba(238, 73, 80, 0.1); /* Light background for skills */
+}
+
+.user-application-half h6 {
+    font-size: 0.9rem;
+    color: rgba(80, 80, 80, 0.7); /* Softer gray for subheadings */
+}

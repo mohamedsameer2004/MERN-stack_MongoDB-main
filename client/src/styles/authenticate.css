@@ -1,0 +1,124 @@
+.AuthenticatePage {
+    width: 100%;
+    height: 100vh; /* Full height to cover the viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/asd.jpg') no-repeat center center fixed; /* Add your image path */
+    background-size: cover; /* Cover the entire viewport */
+}
+
+.auth-navbar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+}
+
+.auth-navbar h3 {
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+    color: #ff6f61; /* Coral color for brand */
+}
+
+.auth-navbar p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    margin-left: 2vw;
+    color: #8b5a2b; /* Brown color for text */
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.auth-navbar p:hover {
+    color: #ff4d4d; /* Darker coral on hover */
+}
+
+.authForm {
+    margin-top: 15vh;
+    padding: 20px;
+    width: 40%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: max-content;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(15px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    border-radius: 1rem;
+}
+
+.authForm h2 {
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #007bff; /* Bright blue for headers */
+    font-size: 2rem;
+}
+
+.authFormInputs {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.authFormInputs label {
+    color: #3b3b3b; /* Dark grey for labels */
+}
+
+.authFormInputs input,
+.authForm select {
+    color: #3b3b3b;
+    border: none;
+    outline: none;
+    background-color: #f0f8ff; /* Light blue background */
+    border: 1px solid #9dc1d975;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+
+.authFormInputs input:focus,
+.authForm select:focus {
+    border: 2px solid #007bff; /* Bright blue border on focus */
+}
+
+.authForm button {
+    background-color: #28a745; /* Green for buttons */
+    font-weight: bold;
+    color: #ffffff;
+    height: 50px;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.authForm button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+.authForm p {
+    margin-top: 5%;
+    color: #333333; /* Dark text for paragraphs */
+}
+
+.authForm p span {
+    color: #007bff; /* Bright blue for links */
+    cursor: pointer;
+    text-decoration: underline; /* Underline for clarity */
+}
+
+.authForm p span:hover {
+    color: #0056b3; /* Darker blue on hover */
+}

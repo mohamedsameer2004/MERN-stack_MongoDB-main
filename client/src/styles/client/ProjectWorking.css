@@ -1,0 +1,213 @@
+.project-data-page {
+    padding: 3vh 2vw;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #e0f7fa, #b2ebf2); /* Soft gradient background */
+}
+
+.project-data-container {
+    width: 60%;
+    text-align: left;
+}
+
+.project-data {
+    padding: 1vh 0; /* Add spacing around data */
+}
+
+.project-data h3 {
+    font-size: 1.8rem; /* Slightly larger heading */
+    color: #005b5c; /* Darker teal for better contrast */
+}
+
+.project-data p {
+    font-size: 0.9rem;
+    color: #333; /* Dark gray for text */
+}
+
+.project-data span {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh; /* Add spacing */
+}
+
+.project-data span h5 {
+    font-weight: bold;
+    color: #00796b; /* Teal for subheadings */
+}
+
+.project-data span .required-skills {
+    display: flex;
+    gap: 10px;
+}
+
+.project-data span .required-skills p {
+    color: #ee450e; /* Bright red for skill tags */
+    border: 1px solid #ee450e;
+    padding: 6px 12px;
+    border-radius: 1rem;
+    font-size: 0.7rem;
+}
+
+.project-submissions-container {
+    margin-top: 5vh;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 3vh 2vw;
+    border-radius: 0.7rem;
+    margin-bottom: 5vh;
+    background-color: #ffffff; /* White background for content */
+}
+
+.project-submissions-container h4 {
+    margin-bottom: 3vh;
+    color: #226691; /* Dark blue for headers */
+}
+
+.project-submission {
+    margin-bottom: 2vh; /* Add spacing between submissions */
+    padding: 1vh 0;
+}
+
+.project-submission h6 {
+    color: #00796b; /* Dark teal for submission headers */
+}
+
+.project-submission h5 {
+    margin: 0;
+    font-size: 1rem;
+    color: #333; /* Darker text for better readability */
+}
+
+.project-submission span {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2vh;
+    align-items: center;
+}
+
+.project-submission span h5 {
+    margin: 0;
+    font-size: 1rem;
+    color: #00796b; /* Dark teal for subheaders */
+}
+
+.project-submission span a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #00796b; /* Link color */
+}
+
+.project-submission p {
+    font-size: 0.8rem;
+}
+
+.project-submission .submission-btns {
+    display: flex;
+    gap: 15px;
+}
+
+.project-submission .submission-btns button {
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ee450e; /* Red button color */
+    color: white;
+    border: none; /* Remove default border */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.project-submission .submission-btns button:hover {
+    background-color: #d84315; /* Darker red on hover */
+}
+
+.project-chat-container {
+    width: 35%;
+    height: 85vh;
+    border-radius: 0.7rem;
+    padding: 2vh 1.5vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    background-color: #ffffff; /* White background for chat */
+}
+
+.project-chat-container h4 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #00796b; /* Dark teal for chat header */
+}
+
+.chat-body {
+    height: 95%;
+}
+
+.chat-messages {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    padding-bottom: 4vh;
+}
+
+.chat-messages::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+
+.chat-messages .my-message {
+    width: 100%;
+    text-align: right;
+}
+
+.chat-messages .my-message div {
+    color: #fff;
+    background-color: #e75221; /* Bright orange for sent messages */
+    width: fit-content;
+    max-width: 80%;
+    padding: 5px 20px;
+    border-radius: 1rem;
+    text-align: justify;
+}
+
+.chat-messages .received-message {
+    width: 100%;
+    text-align: left;
+}
+
+.chat-messages .received-message div {
+    color: #fff;
+    background-color: #218ee7; /* Bright blue for received messages */
+    width: fit-content;
+    max-width: 80%;
+    padding: 5px 20px;
+    border-radius: 1rem;
+    text-align: justify;
+}
+
+.chat-input {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.chat-input input {
+    width: 75%;
+    height: 8vh;
+    border-radius: 2rem 0 0 2rem;
+    padding-left: 10px;
+    border: 1.5px solid #d4d4d4;
+}
+
+.chat-input button {
+    width: 25%;
+    height: 8vh;
+    border-radius: 0 2rem 2rem 0;
+    border: 1.5px solid #ee450e;
+    color: #ee450e;
+    background-color: #f5f5f5; /* Light gray for button */
+    font-weight: 500;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.chat-input button:hover {
+    border: 1.5px solid #ee450e;
+    color: aliceblue;
+    background-color: #ee450e; /* Red on hover */
+}

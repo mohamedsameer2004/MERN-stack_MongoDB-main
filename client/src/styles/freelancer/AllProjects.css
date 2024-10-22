@@ -1,0 +1,117 @@
+.all-projects-page {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    background: linear-gradient(to right, #e0f7fa, #b2ebf2); /* Soft gradient background */
+}
+
+.project-filters {
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3vh 1.5vw;
+    height: 82vh;
+    border-radius: 0.7rem;
+    overflow-y: auto;
+    background-color: #ffffff; /* White background for clarity */
+}
+
+.project-filters h3 {
+    font-size: 1.6rem; /* Slightly larger font size */
+    color: #005b5c; /* Dark teal for headers */
+}
+
+.filters {
+    margin-top: 3vh;
+}
+
+.filters h5 {
+    font-size: 1.2rem; /* Increase size for visibility */
+    color: #00796b; /* Teal for filter section headers */
+}
+
+.filter-options {
+    font-size: 0.9rem;
+    color: #555; /* Dark gray for filter options */
+}
+
+.projects-list {
+    width: 75%;
+    height: 82vh;
+    overflow-y: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.7rem;
+    padding: 3vh 2vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; /* White background for projects */
+}
+
+.projects-list hr {
+    color: rgb(95, 96, 97);
+}
+
+.projects-list h3 {
+    font-size: 1.5rem; /* Increase heading size */
+    color: #005b5c; /* Dark teal for project list header */
+}
+
+.listed-project:hover {
+    background-color: rgba(239, 239, 239, 0.5); /* Light hover effect */
+    cursor: pointer;
+}
+
+.listed-project h5 {
+    font-size: 1rem; /* Slightly larger for better readability */
+    color: #005b5c; /* Dark teal for project titles */
+}
+
+.listed-project p {
+    font-size: 0.9rem;
+    color: #333; /* Dark gray for project description */
+}
+
+.listed-project-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.listed-project-head h3 {
+    width: 80%;
+    margin: 0;
+    font-size: 1.4rem;
+    color: #005b5c; /* Consistent color for project headers */
+}
+
+.listed-project-head p {
+    margin: 0;
+    color: #555; /* Dark gray for additional info */
+}
+
+.listed-project .skills {
+    display: flex;
+    gap: 10px;
+}
+
+.listed-project .skills h6 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #ee4950; /* Bright red for skill tags */
+    border: 1px solid #ee4950;
+    padding: 5px 10px;
+    border-radius: 1rem;
+}
+
+.listed-project .bids-data {
+    display: flex;
+    gap: 30px;
+    margin-top: 3vh;
+}
+
+.listed-project .bids-data p {
+    color: #333; /* Dark gray for bid data */
+}
+
+.listed-project .bids-data h6 {
+    color: #005b5c; /* Dark teal for bid headings */
+}

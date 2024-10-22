@@ -1,0 +1,66 @@
+.all-users-page {
+    padding: 4vh 2vw;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.all-users-page h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #004d6b; /* Dark teal for headings */
+    margin-bottom: 2vh; /* Add margin for spacing */
+    text-align: center; /* Center the heading */
+}
+
+.all-users {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased gap for better separation */
+}
+
+.user {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    border: 1px solid rgba(238, 70, 14, 0.5); /* Lighter border */
+    padding: 2vh 1.5vw;
+    border-radius: 0.8rem;
+    background-color: #ffffff; /* White background for user cards */
+    transition: box-shadow 0.3s; /* Smooth shadow transition */
+}
+
+.user:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px; /* Shadow effect on hover */
+}
+
+.user span {
+    display: flex; /* Use flexbox for better alignment */
+    flex-direction: column; /* Stack user details */
+}
+
+.user span b {
+    margin: 0;
+    font-weight: 600; /* Bolder font for emphasis */
+    color: #00695c; /* Darker teal for names */
+    font-size: 1.2rem; /* Slightly larger font size */
+}
+
+.user span p {
+    margin: 0;
+    color: rgba(22, 95, 129, 0.8); /* More opaque color for better readability */
+    font-size: 0.9rem; /* Slightly larger font size */
+}
+
+/* Optional: Add a status label for better user experience */
+.user span .status {
+    padding: 5px 10px;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #4caf50; /* Green for active users */
+    text-align: center;
+    width: fit-content;
+}
+
+/* Style for inactive users */
+.user span .status.inactive {
+    background-color: #f44336; /* Red for inactive users */
+}

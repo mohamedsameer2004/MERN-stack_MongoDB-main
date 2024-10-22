@@ -1,0 +1,112 @@
+.client-projects-page {
+    display: flex;
+    flex-direction: column; /* Change to column for better layout on smaller screens */
+    align-items: center;
+    margin-top: 5vh;
+    padding: 0 2vw; /* Add some horizontal padding */
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.client-projects-header {
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Make header full width */
+    padding: 0 2vw; /* Add padding */
+}
+
+.client-projects-header select {
+    width: 25vw;
+    padding: 10px; /* Add padding for comfort */
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light border for input */
+    background-color: #ffffff; /* White background for dropdown */
+    color: #333; /* Darker text color */
+}
+
+.client-projects-list {
+    width: 95%;
+    height: 82vh;
+    overflow-y: scroll;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.7rem;
+    padding: 3vh 2vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; /* White background for the project list */
+}
+
+.client-projects-list hr {
+    border: 1px solid rgba(95, 96, 97, 0.5); /* Lighter border */
+}
+
+.client-projects-list h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #004d6b; /* Darker teal for section headings */
+    margin-bottom: 1vh; /* Space below heading */
+}
+
+.listed-project:hover {
+    background-color: rgba(239, 239, 239, 0.7); /* Slightly darker on hover */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.listed-project h5 {
+    font-size: 1rem; /* Increased size for better readability */
+    color: #333; /* Dark text for better contrast */
+}
+
+.listed-project p {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7); /* Darker gray for better readability */
+}
+
+.listed-project-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center align for better layout */
+    margin-bottom: 2vh; /* Adjust spacing */
+}
+
+.listed-project-head h3 {
+    width: 80%;
+    margin: 0;
+    font-size: 1.6rem; /* Increased size for emphasis */
+    color: #227396; /* Stronger blue for project titles */
+}
+
+.listed-project-head p {
+    margin: 0;
+    color: #777; /* Softer color for additional info */
+}
+
+.listed-project .skills {
+    display: flex;
+    gap: 10px;
+}
+
+.listed-project .skills h6 {
+    font-size: 0.9rem; /* Increased font size */
+    font-weight: 500; /* Bolder for emphasis */
+    color: #ee4950;
+    border: 1px solid #ee4950;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    background-color: rgba(238, 73, 80, 0.1); /* Light background for skills */
+}
+
+.listed-project .bids-data {
+    display: flex;
+    gap: 30px;
+    margin-top: 3vh;
+}
+
+.listed-project .bids-data p {
+    color: #333; /* Dark text for bids */
+}
+
+.listed-project .bids-data h6 {
+    color: #004d6b; /* Dark teal for bids count */
+}
