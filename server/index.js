@@ -33,7 +33,7 @@ io.on("connection", (socket) =>{
 
 
 const PORT = 6001;
-mongoose.connect('mongodb+srv://ananthkarthick07:Monkey07@cluster0.dmm5j.mongodb.net/',{
+mongoose.connect('mongodb+srv://Sameer:RSYamAjcYnAryzXz@cluster0.ygf5t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(()=>{
